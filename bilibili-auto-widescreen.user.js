@@ -3,7 +3,16 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.2
 // @description  页面加载后自动切换宽屏，并可按 T 键手动切换（仅在 bilibili.com 有效），自动触发时下滚12px
-// @match        *://*.bilibili.com/*
+// @match *://www.bilibili.com/video/av*
+// @match *://www.bilibili.com/video/BV*
+// @match *://www.bilibili.com/bangumi/play/ep*
+// @match *://www.bilibili.com/bangumi/play/ss*
+// @match *://www.bilibili.com/cheese/play/ep*
+// @match *://www.bilibili.com/cheese/play/ss*
+// @match *://www.bilibili.com/list/*
+// @match *://www.bilibili.com/medialist/play/*
+// @match *://www.bilibili.com/watchlater/*
+// @match *://www.bilibili.com/festival/*
 // @grant        none
 // ==/UserScript==
 
